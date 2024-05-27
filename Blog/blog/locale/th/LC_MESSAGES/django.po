@@ -1,0 +1,1405 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-14 15:38+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\base\models.py:51 .\base\models.py:67 .\base\models.py:80
+#: .\base\models.py:95 .\client\models.py:52 .\client\models.py:64
+#: .\forms\models.py:29 .\forms\models.py:49 .\forms\models.py:128
+#: .\forms\models.py:423 .\forms\models.py:432 .\forms\models.py:477
+msgid "Name"
+msgstr ""
+
+#: .\base\models.py:52
+msgid "2-character"
+msgstr ""
+
+#: .\base\models.py:53
+msgid "3-character"
+msgstr ""
+
+#: .\base\models.py:54 .\forms\models.py:79 .\users\models.py:107
+msgid "Phone Code"
+msgstr ""
+
+#: .\base\models.py:55
+msgid "Country Image"
+msgstr ""
+
+#: .\base\models.py:68 .\base\models.py:81 .\base\models.py:96
+#: .\forms\models.py:437
+msgid "Code"
+msgstr ""
+
+#: .\base\models.py:82
+msgid "Short Name"
+msgstr ""
+
+#: .\base\models.py:97
+msgid "Question Option Image"
+msgstr ""
+
+#: .\base\models.py:98
+msgid "Chosen"
+msgstr ""
+
+#: .\base\models.py:99 .\forms\models.py:302 .\forms\models.py:363
+#: .\forms\models.py:450 .\forms\models.py:488
+msgid "Question"
+msgstr ""
+
+#: .\base\models.py:100 .\forms\models.py:198 .\forms\models.py:288
+#: .\forms\models.py:311 .\forms\models.py:424 .\forms\models.py:435
+#: .\forms\models.py:453
+msgid "Parent"
+msgstr ""
+
+#: .\base\models.py:101 .\forms\models.py:62 .\forms\models.py:200
+#: .\forms\models.py:290 .\forms\models.py:313 .\forms\models.py:455
+#: .\forms\models.py:491
+msgid "Status"
+msgstr ""
+
+#: .\base\models.py:102
+msgid "Default Option"
+msgstr ""
+
+#: .\base\mutations.py:56
+msgid "Invalid question type value."
+msgstr "ค่าประเภทคำถามไม่ถูกต้อง"
+
+#: .\base\mutations.py:259
+msgid "Question Type Category matching query does not exist."
+msgstr "ประเภทคำถาม ไม่มีหมวดหมู่การค้นหาที่ตรงกัน"
+
+#: .\base\mutations.py:278
+msgid "Question Type matching query does not exist."
+msgstr "ไม่มีการค้นหาที่ตรงกับประเภทคำถาม"
+
+#: .\base\mutations.py:297
+msgid "Country matching query does not exist."
+msgstr "ไม่มีการค้นหาการจับคู่ประเทศ"
+
+#: .\base\mutations.py:316
+msgid "State matching query does not exist."
+msgstr "ไม่มีข้อความค้นหาที่ตรงกันของรัฐ"
+
+#: .\base\mutations.py:335
+msgid "Unit of Measure matching query does not exist."
+msgstr "ไม่มีข้อความค้นหาที่ตรงกับหน่วยวัด"
+
+#: .\base\mutations.py:356
+msgid "Question option matching query does not exist."
+msgstr "ไม่มีการค้นหาตัวเลือกที่ตรงกับคำถาม"
+
+#: .\client\admin.py:9
+msgid "Basic"
+msgstr ""
+
+#: .\client\admin.py:10
+msgid "Settings"
+msgstr ""
+
+#: .\client\admin.py:19
+msgid "Group Info"
+msgstr ""
+
+#: .\client\models.py:28 .\forms\models.py:129 .\forms\models.py:324
+#: .\forms\models.py:365
+msgid "Question Type"
+msgstr ""
+
+#: .\client\models.py:29
+msgid "Subscription"
+msgstr ""
+
+#: .\client\models.py:30 .\forms\models.py:167
+msgid "Date Format"
+msgstr ""
+
+#: .\client\models.py:42
+msgid "Managers"
+msgstr ""
+
+#: .\client\models.py:43
+msgid "Members"
+msgstr ""
+
+#: .\client\models.py:44 .\forms\models.py:72
+msgid "Forms"
+msgstr ""
+
+#: .\client\models.py:53 .\client\models.py:65
+msgid "Question types"
+msgstr ""
+
+#: .\client\models.py:66
+msgid "Field Types"
+msgstr ""
+
+#: .\client\models.py:67
+msgid "Template Types"
+msgstr ""
+
+#: .\client\models.py:69
+msgid "Form Limit"
+msgstr ""
+
+#: .\client\models.py:70
+msgid "Group Limit"
+msgstr ""
+
+#: .\client\models.py:71
+msgid "Capture User Limit"
+msgstr ""
+
+#: .\client\models.py:72
+msgid "Records Limit"
+msgstr ""
+
+#: .\client\models.py:73
+msgid "Key Features"
+msgstr ""
+
+#: .\client\models.py:74
+msgid "Is Free"
+msgstr ""
+
+#: .\client\models.py:76
+msgid "Every Language"
+msgstr ""
+
+#: .\client\models.py:77
+msgid "Smart Scripts"
+msgstr ""
+
+#: .\client\models.py:78
+msgid "Modify Records"
+msgstr ""
+
+#: .\client\models.py:79
+msgid "Records Exports"
+msgstr ""
+
+#: .\client\models.py:80
+msgid "Business Intelligence"
+msgstr ""
+
+#: .\client\models.py:81
+msgid "Client Form Development"
+msgstr ""
+
+#: .\client\models.py:82
+msgid "Client BI Development"
+msgstr ""
+
+#: .\client\models.py:83
+msgid "Development Assistance"
+msgstr ""
+
+#: .\client\models.py:84
+msgid "Smart Script Development"
+msgstr ""
+
+#: .\client\mutations.py:46
+msgid "You don't have permission to do this action"
+msgstr "คุณไม่มีสิทธิ์ดำเนินการนี้"
+
+#: .\client\mutations.py:48
+msgid "Name is required for the Client."
+msgstr "ชื่อเป็นสิ่งจำเป็นสำหรับลูกค้า"
+
+#: .\client\mutations.py:50
+msgid "Email is required for the Client."
+msgstr "จำเป็นต้องมีอีเมลสำหรับลูกค้า"
+
+#: .\client\mutations.py:55 .\client\mutations.py:58
+msgid "An user/client with this email address already exist."
+msgstr "มีผู้ใช้/ลูกค้าที่ใช้ที่อยู่อีเมลนี้แล้ว"
+
+#: .\client\mutations.py:80
+msgid "Client matching query does not exist."
+msgstr "ไม่มีการค้นหาการจับคู่ไคลเอนต์"
+
+#: .\client\mutations.py:130
+msgid "Need to choose the client to create a group."
+msgstr "ต้องเลือกลูกค้าเพื่อสร้างกลุ่ม"
+
+#: .\client\mutations.py:132
+msgid "Client with given id does not exist."
+msgstr "ไม่มีไคลเอนต์ที่มีรหัสที่ระบุ"
+
+#: .\client\mutations.py:134
+msgid "Name is required for the Group."
+msgstr "ต้องระบุชื่อสำหรับกลุ่ม"
+
+#: .\client\mutations.py:153
+msgid "Group matching query does not exist."
+msgstr "ไม่มีการค้นหาที่ตรงกันแบบกลุ่ม"
+
+#: .\client\mutations.py:245
+msgid "You do not have permission to add/remove."
+msgstr "คุณไม่ได้รับอนุญาตให้เพิ่ม/ลบ"
+
+#: .\client\mutations.py:296
+msgid "Sorry! You can give access to the selected group's members/users only."
+msgstr "ขอโทษ! คุณสามารถให้สิทธิ์การเข้าถึงแก่สมาชิก/ผู้ใช้ของกลุ่มที่เลือกเท่านั้น"
+
+#: .\client\mutations.py:305 .\forms\mutations.py:1054
+msgid "Something went wrong. Try again."
+msgstr "บางอย่างผิดพลาด. ลองอีกครั้ง."
+
+#: .\client\mutations.py:334
+msgid "Name is required for the Subscription."
+msgstr "ต้องระบุชื่อสำหรับการสมัครสมาชิก"
+
+#: .\client\mutations.py:359
+msgid "Subscription matching query does not exist."
+msgstr "ไม่มีการค้นหาที่ตรงกับการสมัครรับข้อมูล"
+
+#: .\client\mutations.py:381
+msgid "Need subscription detail to add plan."
+msgstr "ต้องการรายละเอียดการสมัครสมาชิกเพื่อเพิ่มแผน"
+
+#: .\client\mutations.py:397 .\users\mutations.py:496
+msgid "Sorry! You are not authorized to perform this action."
+msgstr "ขอโทษ! คุณไม่ได้รับอนุญาตให้ดำเนินการนี้"
+
+#: .\client\mutations.py:406
+msgid ""
+"Sorry! Another user is already registered with the entered email/phone "
+"number."
+msgstr "ขอโทษ! มีผู้ใช้รายอื่นลงทะเบียนแล้วด้วยอีเมล/หมายเลขโทรศัพท์ที่ป้อน"
+
+#: .\client\mutations.py:462
+msgid "Subscription question type matching query does not exist."
+msgstr "ไม่มีการค้นหาประเภทคำถามการสมัครรับข้อมูลที่ตรงกัน"
+
+#: .\client\validations.py:40 .\client\validations.py:52
+#: .\client\validations.py:64 .\client\validations.py:76
+msgid ""
+"Sorry! You do not have any active subscription plan. Contact super admin."
+msgstr "ขอโทษ! คุณไม่มีแผนการสมัครสมาชิกที่ใช้งานอยู่ ติดต่อผู้ดูแลระบบระดับสูง"
+
+#: .\client\validations.py:41 .\client\validations.py:53
+#: .\client\validations.py:65 .\client\validations.py:77
+msgid "Sorry! Your client do not have any active subscription plan."
+msgstr "ขอโทษ! ลูกค้าของคุณไม่มีแผนการสมัครสมาชิกที่ใช้งานอยู่"
+
+#: .\client\validations.py:44
+msgid ""
+"Sorry! You have reached your subscription user limit. Extend the plan and "
+"Try again"
+msgstr "ขอโทษ! คุณถึงขีดจำกัดผู้ใช้ที่สมัครรับข้อมูลของคุณแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\client\validations.py:45
+msgid ""
+"Sorry! The chosen form client have reached subscription users limit. Extend "
+"the plan and Try again"
+msgstr ""
+"ขอโทษ! ไคลเอนต์แบบฟอร์มที่เลือกมีจำนวนผู้ใช้ที่สมัครสมาชิกถึงขีดจำกัดแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\client\validations.py:56
+msgid ""
+"Sorry! You have reached your subscription forms limit. Extend the plan and "
+"Try again"
+msgstr "ขอโทษ! คุณใช้แบบฟอร์มการสมัครถึงขีดจำกัดแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\client\validations.py:57
+msgid ""
+"Sorry! The chosen form client have reached subscription forms limit. Extend "
+"the plan and Try again"
+msgstr "ขอโทษ! รายการที่เลือกสำหรับลูกค้ามีการสมัครถึงขีดจำกัดแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\client\validations.py:68
+msgid ""
+"Sorry! You have reached your subscription groups limit. Extend the plan and "
+"Try again"
+msgstr "ขอโทษ! คุณถึงขีดจำกัดกลุ่มการสมัครของคุณแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\client\validations.py:69
+msgid ""
+"Sorry! The client have reached subscription groups limit. Extend the plan "
+"and Try again"
+msgstr "ขอโทษ! ไคลเอนต์มีจำนวนกลุ่มการสมัครถึงขีดจำกัดแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\client\validations.py:80
+msgid ""
+"Sorry! You have reached your subscription records limit. Extend the plan and "
+"Try again"
+msgstr "ขอโทษ! คุณใช้บันทึกการสมัครสมาชิกถึงขีดจำกัดแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\client\validations.py:81
+msgid ""
+"Sorry! The client have reached subscription records limit. Extend the plan "
+"and Try again"
+msgstr "ขอโทษ! ไคลเอ็นต์มีบันทึกการสมัครสมาชิกถึงขีดจำกัดแล้ว ขยายแผนและลองอีกครั้ง"
+
+#: .\forms\admin.py:55
+msgid "Text"
+msgstr ""
+
+#: .\forms\admin.py:56
+msgid "Single and Multiple Choice"
+msgstr ""
+
+#: .\forms\admin.py:58 .\forms\models.py:305
+msgid "Number"
+msgstr ""
+
+#: .\forms\admin.py:61
+msgid "Location and GEO(Accuracy)"
+msgstr ""
+
+#: .\forms\admin.py:62
+msgid "Date and Time"
+msgstr ""
+
+#: .\forms\admin.py:63
+msgid "Section"
+msgstr ""
+
+#: .\forms\admin.py:64 .\forms\models.py:175
+msgid "Unit of Measure"
+msgstr ""
+
+#: .\forms\admin.py:65
+msgid "Image and GEO(Quality)"
+msgstr ""
+
+#: .\forms\admin.py:66
+msgid "phone"
+msgstr ""
+
+#: .\forms\admin.py:67
+msgid "Video"
+msgstr ""
+
+#: .\forms\admin.py:68 .\forms\models.py:189
+msgid "Likert Scale"
+msgstr ""
+
+#: .\forms\admin.py:69
+msgid "Scale"
+msgstr ""
+
+#: .\forms\imports.py:128
+msgid "Response import status"
+msgstr "สถานะการนำเข้าการตอบสนอง"
+
+#: .\forms\imports.py:129
+#, python-format
+msgid ""
+"Response data imported successfully in the form %s. Check it in the "
+"application."
+msgstr "นำเข้าข้อมูลตอบกลับสำเร็จในรูปแบบ %s ตรวจสอบในแอปพลิเคชัน."
+
+#: .\forms\imports.py:132
+#, python-format
+msgid ""
+"Some of the response data imported successfully and some not imported due to "
+"incorrect data in the form %s. Also, we attached the excel file with non "
+"imported rows including error. Correct the incorrect data and then import "
+"again."
+msgstr ""
+"ข้อมูลตอบกลับบางส่วนนำเข้าสำเร็จและบางส่วนไม่ได้นำเข้าเนื่องจากข้อมูลที่ไม่ถูกต้องในรูปแบบ %s "
+"นอกจากนี้ เราแนบไฟล์ excel ที่มีแถวที่ไม่ได้นำเข้ารวมถึงข้อผิดพลาด "
+"แก้ไขข้อมูลที่ไม่ถูกต้องแล้วนำเข้าใหม่"
+
+#: .\forms\imports.py:174
+msgid "Choose a valid form to import the response data."
+msgstr "เลือกแบบฟอร์มที่ถูกต้องเพื่อนำเข้าข้อมูลการตอบกลับ"
+
+#: .\forms\imports.py:210
+msgid "You are not authorized to import response data."
+msgstr "คุณไม่ได้รับอนุญาตให้นำเข้าข้อมูลการตอบกลับ"
+
+#: .\forms\imports.py:235
+msgid "Form and File extension is required."
+msgstr "ต้องกรอกแบบฟอร์มและนามสกุลไฟล์"
+
+#: .\forms\imports.py:324
+#, python-format
+msgid "%s"
+msgstr ""
+
+#: .\forms\imports.py:344
+msgid "You are not authorized to import lookup data."
+msgstr "คุณไม่ได้รับอนุญาตให้นำเข้าข้อมูลการค้นหา"
+
+#: .\forms\imports.py:346
+msgid "Choose valid file format such as CSV, XLSX or XLS."
+msgstr "เลือกรูปแบบไฟล์ที่ถูกต้อง เช่น CSV, XLSX หรือ XLS"
+
+#: .\forms\mixins.py:77
+msgid "Sorry! You do not have access to modify this form."
+msgstr "ขอโทษ! คุณไม่มีสิทธิ์แก้ไขแบบฟอร์มนี้"
+
+#: .\forms\mixins.py:96
+msgid "Sorry! You do not have access to create form."
+msgstr "ขอโทษ! คุณไม่มีสิทธิ์เข้าถึงเพื่อสร้างแบบฟอร์ม"
+
+#: .\forms\mixins.py:139
+msgid "Sorry! You do not have access to modify the questions of this form."
+msgstr "ขอโทษ! คุณไม่สามารถแก้ไขคำถามของแบบฟอร์มนี้ได้"
+
+#: .\forms\mixins.py:178
+msgid ""
+"Sorry! You do not have access to create/modify this form related conditions."
+msgstr "ขอโทษ! คุณไม่มีสิทธิ์สร้าง/แก้ไขเงื่อนไขที่เกี่ยวข้องกับแบบฟอร์มนี้"
+
+#: .\forms\mixins.py:223
+msgid "Passed Question Condition does not exist."
+msgstr "ไม่มีเงื่อนไขของคำถามที่ผ่าน"
+
+#: .\forms\mixins.py:262
+msgid "Sorry! You do not have access to create/modify this form related rules."
+msgstr "ขอโทษ! คุณไม่มีสิทธิ์สร้าง/แก้ไขกฎที่เกี่ยวข้องกับแบบฟอร์มนี้"
+
+#: .\forms\mixins.py:294 .\forms\mixins.py:302
+msgid "Sorry! You do not have access to perform this action."
+msgstr "ขอโทษ! คุณไม่มีสิทธิ์เข้าถึงเพื่อดำเนินการนี้"
+
+#: .\forms\mixins.py:300
+msgid "Form is required to create response."
+msgstr "จำเป็นต้องมีสถานะการเผยแพร่ที่ถูกต้องสำหรับลูกค้า"
+
+#: .\forms\models.py:35
+msgid "Form Categories"
+msgstr ""
+
+#: .\forms\models.py:51 .\forms\models.py:339
+msgid "Version"
+msgstr ""
+
+#: .\forms\models.py:53 .\forms\models.py:132
+msgid "Description"
+msgstr ""
+
+#: .\forms\models.py:55 .\forms\models.py:78
+msgid "Publish Status"
+msgstr ""
+
+#: .\forms\models.py:57
+msgid "Is Template?"
+msgstr ""
+
+#: .\forms\models.py:58
+msgid "Form Category"
+msgstr ""
+
+#: .\forms\models.py:60
+msgid "Client"
+msgstr ""
+
+#: .\forms\models.py:61 .\forms\models.py:76 .\forms\models.py:197
+#: .\forms\models.py:276 .\forms\models.py:337 .\forms\models.py:486
+msgid "Form"
+msgstr ""
+
+#: .\forms\models.py:63
+msgid "Is public template?"
+msgstr ""
+
+#: .\forms\models.py:65
+msgid "Need Looker?"
+msgstr ""
+
+#: .\forms\models.py:66
+msgid "Last Updated on Looker Studio"
+msgstr ""
+
+#: .\forms\models.py:80 .\users\models.py:108
+msgid "Phone Number"
+msgstr ""
+
+#: .\forms\models.py:81
+msgid "Email"
+msgstr ""
+
+#: .\forms\models.py:82
+msgid "Member"
+msgstr ""
+
+#: .\forms\models.py:85
+msgid "Has Response Access"
+msgstr ""
+
+#: .\forms\models.py:94
+msgid "Form Invitations"
+msgstr ""
+
+#: .\forms\models.py:134
+msgid "Keyword"
+msgstr ""
+
+#: .\forms\models.py:135
+msgid "Mandatory"
+msgstr ""
+
+#: .\forms\models.py:136
+msgid "Help Image"
+msgstr ""
+
+#: .\forms\models.py:139 .\forms\models.py:278 .\forms\models.py:449
+msgid "Sequence"
+msgstr ""
+
+#: .\forms\models.py:141
+msgid "Maximum no of Character Allowed"
+msgstr ""
+
+#: .\forms\models.py:144
+msgid "Show Code Options"
+msgstr ""
+
+#: .\forms\models.py:146
+msgid "Add none of the above"
+msgstr ""
+
+#: .\forms\models.py:148
+msgid "Add all of the above"
+msgstr ""
+
+#: .\forms\models.py:149
+msgid "Min"
+msgstr ""
+
+#: .\forms\models.py:150
+msgid "Max"
+msgstr ""
+
+#: .\forms\models.py:152
+msgid "Limit Type"
+msgstr ""
+
+#: .\forms\models.py:155
+msgid "Lower Limit"
+msgstr ""
+
+#: .\forms\models.py:157
+msgid "Upper Limit"
+msgstr ""
+
+#: .\forms\models.py:159
+msgid "Allow Decimal Numbers"
+msgstr ""
+
+#: .\forms\models.py:161
+msgid "Enable Warning"
+msgstr ""
+
+#: .\forms\models.py:164
+msgid "Location Settings"
+msgstr ""
+
+#: .\forms\models.py:166
+msgid "Location Accuracy"
+msgstr ""
+
+#: .\forms\models.py:169
+msgid "Date Allow"
+msgstr ""
+
+#: .\forms\models.py:171
+msgid "Time Format"
+msgstr ""
+
+#: .\forms\models.py:174
+msgid "Section Name"
+msgstr ""
+
+#: .\forms\models.py:178
+msgid "Image Quality"
+msgstr ""
+
+#: .\forms\models.py:180
+msgid "Allow users to select image from gallery"
+msgstr ""
+
+#: .\forms\models.py:183
+msgid "Country"
+msgstr ""
+
+#: .\forms\models.py:185
+msgid "Mute Audio"
+msgstr ""
+
+#: .\forms\models.py:187
+msgid "Video Quality"
+msgstr ""
+
+#: .\forms\models.py:191
+msgid "Scale Minimum"
+msgstr ""
+
+#: .\forms\models.py:193
+msgid "Scale Max"
+msgstr ""
+
+#: .\forms\models.py:195
+msgid "Step Size"
+msgstr ""
+
+#: .\forms\models.py:201
+msgid "Hide Data Entry"
+msgstr ""
+
+#: .\forms\models.py:203
+msgid "Regex Expression"
+msgstr ""
+
+#: .\forms\models.py:204
+msgid "Regex Warning"
+msgstr ""
+
+#: .\forms\models.py:205
+msgid "Leave date blank by default"
+msgstr ""
+
+#: .\forms\models.py:208
+msgid "Hide at data entry web"
+msgstr ""
+
+#: .\forms\models.py:209
+msgid "Hide at update"
+msgstr ""
+
+#: .\forms\models.py:279
+msgid "Question Conditions"
+msgstr ""
+
+#: .\forms\models.py:282
+msgid "Filter Type"
+msgstr ""
+
+#: .\forms\models.py:284
+msgid "Display Questions"
+msgstr ""
+
+#: .\forms\models.py:300
+msgid "Question Rule"
+msgstr ""
+
+#: .\forms\models.py:307
+msgid "Options"
+msgstr ""
+
+#: .\forms\models.py:308 .\forms\models.py:323
+msgid "Criteria"
+msgstr ""
+
+#: .\forms\models.py:340
+msgid "Submitted by"
+msgstr ""
+
+#: .\forms\models.py:343
+msgid "Submitted on"
+msgstr ""
+
+#: .\forms\models.py:347
+msgid "Submitted Through"
+msgstr ""
+
+#: .\forms\models.py:350 .\forms\models.py:372
+msgid "Device ID"
+msgstr ""
+
+#: .\forms\models.py:352
+msgid "Synced on"
+msgstr ""
+
+#: .\forms\models.py:362
+msgid "Response"
+msgstr ""
+
+#: .\forms\models.py:367
+msgid "Result"
+msgstr ""
+
+#: .\forms\models.py:369
+msgid "File"
+msgstr ""
+
+#: .\forms\models.py:370
+msgid "Script Value"
+msgstr ""
+
+#: .\forms\models.py:374 .\forms\models.py:438
+msgid "Latitude"
+msgstr ""
+
+#: .\forms\models.py:376 .\forms\models.py:439
+msgid "Longitude"
+msgstr ""
+
+#: .\forms\models.py:377
+msgid "File Path"
+msgstr ""
+
+#: .\forms\models.py:378
+msgid "Date"
+msgstr ""
+
+#: .\forms\models.py:379
+msgid "Time"
+msgstr ""
+
+#: .\forms\models.py:381
+msgid "Numeric Value"
+msgstr ""
+
+#: .\forms\models.py:382
+msgid "Coordinates"
+msgstr ""
+
+#: .\forms\models.py:416 .\forms\models.py:465
+msgid "Response Line"
+msgstr ""
+
+#: .\forms\models.py:418
+msgid "Question Option"
+msgstr ""
+
+#: .\forms\models.py:433
+msgid "Lookup Reference"
+msgstr ""
+
+#: .\forms\models.py:451
+msgid "Category"
+msgstr ""
+
+#: .\forms\models.py:467
+msgid "Lookup Parent"
+msgstr ""
+
+#: .\forms\models.py:469
+msgid "Lookup Value"
+msgstr ""
+
+#: .\forms\models.py:479 .\forms\models.py:496
+msgid "Expression"
+msgstr ""
+
+#: .\forms\models.py:489
+msgid "Script"
+msgstr ""
+
+#: .\forms\models.py:492
+msgid "Add Manually"
+msgstr ""
+
+#: .\forms\models.py:493
+msgid "Lookup Question"
+msgstr ""
+
+#: .\forms\models.py:494
+msgid "Location Question"
+msgstr ""
+
+#: .\forms\mutations.py:60
+msgid "Valid publish status is required for the Client."
+msgstr "จำเป็นต้องมีสถานะการเผยแพร่ที่ถูกต้องสำหรับลูกค้า"
+
+#: .\forms\mutations.py:155
+msgid "Sorry! You cannot publish an old version of another active form."
+msgstr "ขอโทษ! คุณไม่สามารถเผยแพร่เวอร์ชันเก่าของฟอร์มอื่นที่ใช้งานอยู่ได้"
+
+#: .\forms\mutations.py:262
+msgid "Sorry! You are not allowed to create new question in this form."
+msgstr "ขอโทษ! คุณไม่ได้รับอนุญาตให้สร้างคำถามใหม่ในแบบฟอร์มนี้"
+
+#: .\forms\mutations.py:283
+msgid "Select the valid image."
+msgstr "เลือกรูปภาพที่ถูกต้อง"
+
+#: .\forms\mutations.py:300
+msgid "Name is required to create a question option"
+msgstr "ต้องระบุชื่อเพื่อสร้างตัวเลือกคำถาม"
+
+#: .\forms\mutations.py:338
+msgid "Valid limit type value is required for the Question."
+msgstr "ต้องระบุค่าประเภทขีดจำกัดที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:340
+msgid "Enter a valid date allow type value."
+msgstr "ต้องระบุค่าประเภทสถานที่ที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:343
+msgid "Valid location type value is required for the Question."
+msgstr "ต้องระบุค่าประเภทสถานที่ที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:347
+msgid "Valid location accuracy value is required for the Question."
+msgstr "ต้องใช้ค่าความแม่นยำของตำแหน่งที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:349
+msgid "Valid date format value is required for the Question."
+msgstr "ต้องระบุค่ารูปแบบวันที่ที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:351
+msgid "Valid time format value is required for the Question."
+msgstr "ต้องระบุค่ารูปแบบเวลาที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:353
+msgid "Valid image quality value is required for the Question."
+msgstr "ต้องใช้ค่าคุณภาพของภาพที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:355
+msgid "Valid video quality value is required for the Question."
+msgstr "ต้องระบุค่าคุณภาพวิดีโอที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:357
+msgid "Valid likert scale value is required for the Question."
+msgstr "ต้องใช้ค่าสเกล likert ที่ถูกต้องสำหรับคำถาม"
+
+#: .\forms\mutations.py:390
+msgid "Select the valid image type for help image."
+msgstr "เลือกประเภทภาพที่ถูกต้องสำหรับภาพความช่วยเหลือ"
+
+#: .\forms\mutations.py:409 .\forms\mutations.py:427
+msgid "Provide valid sequence data."
+msgstr "ให้ข้อมูลลำดับที่ถูกต้อง"
+
+#: .\forms\mutations.py:411
+msgid "Negative sequence data not allowed."
+msgstr "ไม่อนุญาตให้ใช้ข้อมูลลำดับเชิงลบ"
+
+#: .\forms\mutations.py:447
+msgid "Sorry! You cannot delete the Published forms."
+msgstr "ขอโทษ! คุณไม่สามารถลบฟอร์มที่เผยแพร่ได้"
+
+#: .\forms\mutations.py:451
+msgid "Forms matching query does not exist."
+msgstr "ไม่มีแบบสอบถามที่ตรงกับแบบฟอร์ม"
+
+#: .\forms\mutations.py:486
+msgid "Form Category matching query does not exist."
+msgstr "ไม่มีคำค้นหาที่ตรงกับหมวดหมู่แบบฟอร์ม"
+
+#: .\forms\mutations.py:532
+msgid "Question matching query does not exist."
+msgstr "ไม่มีคำค้นหาที่ตรงกับคำถาม"
+
+#: .\forms\mutations.py:581
+msgid "Question Condition matching query does not exist."
+msgstr "คำถาม ไม่พบข้อความค้นหาที่ตรงกับเงื่อนไข"
+
+#: .\forms\mutations.py:630
+msgid "Question Rule matching query does not exist."
+msgstr "ไม่มีคำค้นหาที่ตรงกับกฎคำถาม"
+
+#: .\forms\mutations.py:711
+msgid "Need answers to submit the response."
+msgstr "ต้องการคำตอบเพื่อส่งคำตอบ"
+
+#: .\forms\mutations.py:714
+msgid "Kindly select the valid response."
+msgstr "กรุณาเลือกคำตอบที่ถูกต้อง"
+
+#: .\forms\mutations.py:755 .\forms\mutations.py:1147
+msgid "Invited user is already existed in the form"
+msgstr "ผู้ใช้ที่ได้รับเชิญมีอยู่แล้วในแบบฟอร์ม"
+
+#: .\forms\mutations.py:760 .\forms\mutations.py:1152
+msgid "Sorry! Need to map client with form to invite user."
+msgstr "ขอโทษ! ต้องจับคู่ไคลเอนต์กับแบบฟอร์มเพื่อเชิญผู้ใช้"
+
+#: .\forms\mutations.py:768 .\forms\mutations.py:771 .\forms\mutations.py:1162
+#: .\forms\mutations.py:1165 .\users\mutations.py:323 .\users\mutations.py:325
+msgid "Sorry! Invited user is already an user of another client."
+msgstr "ขอโทษ! ผู้ใช้ที่ได้รับเชิญเป็นผู้ใช้ของลูกค้ารายอื่นอยู่แล้ว"
+
+#: .\forms\mutations.py:775
+msgid "Sorry! You cannot invite the super/client admin user."
+msgstr "ขอโทษ! คุณไม่สามารถเชิญผู้ดูแลระบบ super/client"
+
+#: .\forms\mutations.py:788
+#, python-brace-format
+msgid ""
+"You are invited to fill out the form with the name \"{0}\". Please sign in "
+"to the application to complete the details."
+msgstr ""
+"คุณได้รับเชิญให้กรอกแบบฟอร์มโดยใช้ชื่อ \"{0}\" กรุณาลงชื่อเข้าใช้ใบสมัครเพื่อกรอกรายละเอียด"
+
+#: .\forms\mutations.py:794
+msgid "SMS Invitation Sending Failed"
+msgstr "การส่งคำเชิญทาง SMS ล้มเหลว"
+
+#: .\forms\mutations.py:882
+msgid "Question is required to perform this action."
+msgstr "ต้องมีคำถามเพื่อดำเนินการนี้"
+
+#: .\forms\mutations.py:886
+msgid "Lookup Category is required to perform this action."
+msgstr "หมวดหมู่การค้นหาจำเป็นต้องดำเนินการนี้"
+
+#: .\forms\mutations.py:913
+msgid "Lookup Parent matching query does not exist."
+msgstr "ค้นหาการค้นหาการจับคู่หลักไม่มีอยู่"
+
+#: .\forms\mutations.py:931
+msgid "Lookup values matching query does not exist."
+msgstr "ไม่มีการค้นหาค่าที่ตรงกับการค้นหา"
+
+#: .\forms\mutations.py:951
+msgid "Lookup option matching query does not exist."
+msgstr "ไม่มีการค้นหาที่ตรงกับตัวเลือกการค้นหา"
+
+#: .\forms\mutations.py:970
+msgid "Form members matching query does not exist."
+msgstr "ไม่มีแบบสอบถามที่ตรงกับสมาชิกในฟอร์ม"
+
+#: .\forms\mutations.py:1017
+msgid "Sorry! you donot have permission to delete the selected response(s)."
+msgstr "ขอโทษ! คุณไม่ได้รับอนุญาตให้ลบคำตอบที่เลือก"
+
+#: .\forms\mutations.py:1019
+msgid "Response matching query does not exist."
+msgstr "ไม่มีการตอบสนองแบบสอบถามที่ตรงกัน"
+
+#: .\forms\mutations.py:1043
+msgid "Sorry! You can give access to the selected form's invited users only."
+msgstr "ขอโทษ! คุณสามารถให้สิทธิ์การเข้าถึงแก่ผู้ใช้ที่ได้รับเชิญของแบบฟอร์มที่เลือกเท่านั้น"
+
+#: .\forms\mutations.py:1058 .\forms\mutations.py:1088
+msgid "Sorry! No user found in the given ids."
+msgstr "ขอโทษ! ไม่พบผู้ใช้ในรหัสที่ระบุ"
+
+#: .\forms\mutations.py:1084 .\forms\mutations.py:1111
+msgid "Kindly enter the required fields and try again."
+msgstr "กรุณากรอกฟิลด์ที่จำเป็นและลองอีกครั้ง"
+
+#: .\forms\mutations.py:1091 .\forms\mutations.py:1116
+#: .\forms\mutations.py:1767 .\forms\mutations.py:1799
+msgid "Sorry! Only super admin users can do this action."
+msgstr "ขอโทษ! ผู้ใช้ที่เป็นผู้ดูแลระบบขั้นสูงเท่านั้นที่ดำเนินการนี้ได้"
+
+#: .\forms\mutations.py:1168
+msgid "Sorry! You cannot add the super/client admin user."
+msgstr "ขอโทษ! คุณไม่สามารถเพิ่มผู้ดูแลระบบ super/client ได้"
+
+#: .\forms\mutations.py:1283 .\forms\reports.py:278
+msgid ""
+"You do not have access to export the response data. Extend the subscription "
+"plan and try again."
+msgstr "คุณไม่มีสิทธิ์เข้าถึงเพื่อส่งออกข้อมูลการตอบกลับ ขยายแผนการสมัครสมาชิกและลองอีกครั้ง"
+
+#: .\forms\mutations.py:1425
+msgid "Unable to sort using lookup column."
+msgstr "ไม่สามารถจัดเรียงโดยใช้คอลัมน์ค้นหา"
+
+#: .\forms\mutations.py:1491
+msgid "Missing form data value."
+msgstr "ไม่มีค่าข้อมูลในแบบฟอร์ม"
+
+#: .\forms\mutations.py:1497
+msgid "Missing question data value."
+msgstr "ไม่มีค่าข้อมูลคำถาม"
+
+#: .\forms\mutations.py:1547
+msgid "Enter required field Form to perform the action"
+msgstr "ป้อนฟิลด์ที่ต้องกรอก แบบฟอร์ม เพื่อดำเนินการ"
+
+#: .\forms\mutations.py:1549
+msgid "Enter required field Question to perform the action"
+msgstr "ป้อนคำถามในช่องที่ต้องกรอกเพื่อดำเนินการ"
+
+#: .\forms\mutations.py:1581
+msgid "Form Script matching query does not exist."
+msgstr "ไม่มีแบบสอบถามที่ตรงกับสคริปต์ของแบบฟอร์ม"
+
+#: .\forms\mutations.py:1598
+msgid "Enter required field Question type to perform the action"
+msgstr "ป้อนฟิลด์บังคับ ประเภทคำถาม เพื่อดำเนินการ"
+
+#: .\forms\mutations.py:1618
+msgid "Smart Script matching query does not exist."
+msgstr "ไม่มีการค้นหาการจับคู่ Smart Script"
+
+#: .\forms\mutations.py:1677
+#, fuzzy
+#| msgid "Given Form ID is invalid"
+msgid "Given User ID is invalid"
+msgstr "ID ผู้ใช้ที่ระบุไม่ถูกต้อง"
+
+#: .\forms\mutations.py:1679 .\forms\mutations.py:1708
+#: .\forms\mutations.py:1731
+msgid "Given Form ID is invalid"
+msgstr "รหัสแบบฟอร์มที่ระบุไม่ถูกต้อง"
+
+#: .\forms\mutations.py:1687
+msgid "User has no access to the given Form ID"
+msgstr "ผู้ใช้ไม่มีสิทธิ์เข้าถึงรหัสแบบฟอร์มที่กำหนด"
+
+#: .\forms\mutations.py:1788
+msgid "User not found with this Email."
+msgstr "ไม่พบผู้ใช้อีเมลนี้"
+
+#: .\forms\mutations.py:1791
+msgid "Lookup (province) not found with this Province Name."
+msgstr "ไม่พบการค้นหา (จังหวัด) ด้วยชื่อจังหวัดนี้"
+
+#: .\forms\reports.py:40
+msgid "Response data ready to be downloaded"
+msgstr "ข้อมูลการตอบกลับพร้อมให้ดาวน์โหลด"
+
+#: .\forms\reports.py:281 .\forms\reports.py:413 .\forms\reports.py:449
+msgid "No responses found against the given request."
+msgstr "ไม่พบการตอบสนองต่อคำขอที่กำหนด"
+
+#: .\forms\reports.py:283
+msgid "Select a valid file format type."
+msgstr "เลือกประเภทรูปแบบไฟล์ที่ถูกต้อง"
+
+#: .\forms\reports.py:428
+msgid "Need to enable the looker studio access option to use this."
+msgstr "ต้องเปิดใช้งานตัวเลือกการเข้าถึงสตูดิโอ looker เพื่อใช้สิ่งนี้"
+
+#: .\forms\tasks.py:118
+msgid "Failed response ID column references: "
+msgstr "การอ้างอิงคอลัมน์ ID การตอบสนองที่ล้มเหลว:"
+
+#: .\forms\tasks.py:120
+msgid "Failed excel/csv row ID column references: "
+msgstr "การอ้างอิงคอลัมน์ ID แถว excel/csv ล้มเหลว:"
+
+#: .\templates\email\password_reset_email.html:3
+#: .\templates\email\password_set_email.html:31
+#: .\templates\email\response_import_status_email.html:31
+msgid "Hello"
+msgstr "สวัสดี"
+
+#: .\templates\email\password_reset_email.html:6
+msgid "Password Reset"
+msgstr "รีเซ็ตรหัสผ่าน"
+
+#: .\templates\email\password_reset_email.html:8
+msgid ""
+"If you've lost your password or wish to reset it, use the link below to get "
+"started."
+msgstr "หากคุณทำรหัสผ่านหายหรือต้องการรีเซ็ต ให้ใช้ลิงก์ด้านล่างเพื่อเริ่มต้น"
+
+#: .\templates\email\password_reset_email.html:12
+msgid "Reset Password"
+msgstr "รีเซ็ตรหัสผ่าน"
+
+#: .\templates\email\password_reset_email.html:15
+msgid "The password reset link will expire in 8 hours."
+msgstr "ลิงก์รีเซ็ตรหัสผ่านจะหมดอายุใน 8 ชั่วโมง"
+
+#: .\templates\email\password_reset_email.html:17
+msgid ""
+"If you did not request a password reset, you can safely ignore this email."
+"Only a person with access to your email can reset your account password."
+msgstr ""
+"หากคุณไม่ได้ร้องขอการรีเซ็ตรหัสผ่าน คุณสามารถเพิกเฉยต่ออีเมลนี้ได้อย่างปลอดภัย "
+"เฉพาะผู้ที่สามารถเข้าถึงอีเมลของคุณเท่านั้นที่สามารถรีเซ็ตรหัสผ่านบัญชีของคุณได้"
+
+#: .\templates\email\password_reset_email.html:22
+msgid "Sent by"
+msgstr "ส่งโดย"
+
+#: .\templates\email\password_set_email.html:35
+msgid "Click the below link button to set your password and activate your"
+msgstr "คลิกปุ่มลิงค์ด้านล่างเพื่อตั้งรหัสผ่านและเปิดใช้งานของคุณ"
+
+#: .\templates\email\password_set_email.html:35
+msgid "Account."
+msgstr "บัญชี"
+
+#: .\templates\email\password_set_email.html:39
+#: .\templates\email\password_set_email.html:45
+msgid "SET PASSWORD"
+msgstr "ตั้งรหัสผ่าน"
+
+#: .\templates\email\password_set_email.html:49
+msgid "The password set link will expire in 48 hours."
+msgstr "ลลิงค์ตั้งรหัสผ่านจะหมดอายุใน 48 ชั่วโมง"
+
+#: .\templates\email\password_set_email.html:66
+#: .\templates\email\response_download_email.html:59
+#: .\templates\email\response_import_status_email.html:55
+msgid ""
+"If you did not request a this mail, you can safely ignore this email. Only a "
+"person with access to your email can reset your account password."
+msgstr ""
+"หากคุณไม่ได้ขออีเมลนี้ คุณไม่ต้องสนใจอีเมลนี้ "
+"เฉพาะบุคคลที่สามารถเข้าถึงอีเมลของคุณเท่านั้นที่สามารถรีเซ็ตรหัสผ่านบัญชีของคุณได้"
+
+#: .\templates\email\response_download_email.html:31
+msgid "Hello,"
+msgstr "สวัสดี,"
+
+#: .\templates\email\response_download_email.html:33
+msgid "The report for the form"
+msgstr "รายงานสำหรับแบบฟอร์ม"
+
+#: .\templates\email\response_download_email.html:33
+msgid ""
+"has been generated. Please click on the following button to download the data"
+msgstr "ได้ถูกสร้างขึ้น กรุณาคลิกที่ปุ่มต่อไปนี้เพื่อดาวน์โหลดข้อมูล"
+
+#: .\templates\email\response_download_email.html:37
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: .\templates\email\response_download_email.html:41
+msgid "NOTE : "
+msgstr "บันทึก : "
+
+#: .\templates\email\response_download_email.html:42
+msgid "This link will be expired in 2 hours"
+msgstr "ลิงค์นี้จะหมดอายุในอีก 2 ชั่วโมง"
+
+#: .\users\admin.py:12
+msgid "Personal info"
+msgstr ""
+
+#: .\users\admin.py:13
+msgid "Basic info"
+msgstr ""
+
+#: .\users\admin.py:14
+msgid "Permissions"
+msgstr ""
+
+#: .\users\admin.py:17
+msgid "Important dates"
+msgstr ""
+
+#: .\users\mixins.py:92
+msgid "User not found by the given primary key."
+msgstr "ไม่พบผู้ใช้โดยคีย์หลักที่กำหนด"
+
+#: .\users\mixins.py:101
+msgid "User is not found."
+msgstr "ไม่พบผู้ใช้"
+
+#: .\users\models.py:89
+msgid "English"
+msgstr ""
+
+#: .\users\models.py:90
+msgid "Thai"
+msgstr ""
+
+#: .\users\models.py:105
+msgid "Timezone"
+msgstr ""
+
+#: .\users\models.py:106
+msgid "Date of Birth"
+msgstr ""
+
+#: .\users\models.py:109
+msgid "Mobile Number"
+msgstr ""
+
+#: .\users\models.py:110
+msgid "Gender"
+msgstr ""
+
+#: .\users\models.py:111
+msgid "Profile Photo"
+msgstr ""
+
+#: .\users\models.py:114
+msgid "OTP Number"
+msgstr ""
+
+#: .\users\models.py:115
+msgid "OTP Verified"
+msgstr ""
+
+#: .\users\models.py:116
+msgid "Group"
+msgstr ""
+
+#: .\users\models.py:117
+msgid "Secondary Client"
+msgstr ""
+
+#: .\users\mutations.py:57 .\users\mutations.py:573
+#, python-brace-format
+msgid "{0} is not a valid email address"
+msgstr "{0} ไม่ใช่ที่อยู่อีเมลที่ถูกต้อง"
+
+#: .\users\mutations.py:60 .\users\mutations.py:576
+msgid "This email address is already being used"
+msgstr "มีการใช้ที่อยู่อีเมลนี้แล้ว"
+
+#: .\users\mutations.py:64
+msgid "please enter valid password."
+msgstr "กรุณาใส่รหัสผ่านที่ถูกต้อง"
+
+#: .\users\mutations.py:68 .\users\mutations.py:583
+msgid ""
+"Password length should between minimum of 8 and maximum of 16 character."
+msgstr "ความยาวรหัสผ่านควรอยู่ระหว่างขั้นต่ำ 8 ถึงสูงสุด 16 ตัวอักษร"
+
+#: .\users\mutations.py:72 .\users\mutations.py:587
+msgid "Password should contain both upper and lower case character."
+msgstr "รหัสผ่านควรมีทั้งตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก"
+
+#: .\users\mutations.py:76 .\users\mutations.py:591
+msgid "Password should contain both numbers and special characters."
+msgstr "รหัสผ่านควรมีทั้งตัวเลขและอักขระพิเศษ"
+
+#: .\users\mutations.py:80 .\users\mutations.py:595
+msgid "Password should not contain any white spaces."
+msgstr "รหัสผ่านไม่ควรมีช่องว่างใดๆ"
+
+#: .\users\mutations.py:110
+msgid "Enter a phone number to add capture user."
+msgstr "ป้อนหมายเลขโทรศัพท์เพื่อเพิ่มผู้ใช้จับภาพ"
+
+#: .\users\mutations.py:117
+msgid "This number already registered."
+msgstr "หมายเลขนี้ลงทะเบียนแล้ว"
+
+#: .\users\mutations.py:209
+msgid "SMS Gateway failed. Try again."
+msgstr "เกตเวย์ SMS ล้มเหลว ลองอีกครั้ง."
+
+#: .\users\mutations.py:219
+msgid "Please enter the required field values."
+msgstr "โปรดป้อนค่าในฟิลด์ที่ต้องระบุ"
+
+#: .\users\mutations.py:246
+msgid "Enter valid OTP number."
+msgstr "ป้อนหมายเลข OTP ที่ถูกต้อง"
+
+#: .\users\mutations.py:272
+msgid "You are not allowed to delete client admin."
+msgstr "คุณไม่ได้รับอนุญาตให้ลบไคลเอ็นต์ผู้ดูแลระบบ"
+
+#: .\users\mutations.py:316
+msgid "Enter a valid password."
+msgstr "ป้อนรหัสผ่านที่ถูกต้อง"
+
+#: .\users\mutations.py:327
+msgid ""
+"Sorry! The given email/phone number already registered with another user. "
+"Try different input."
+msgstr "ขอโทษ! อีเมล/หมายเลขโทรศัพท์ที่ระบุได้ลงทะเบียนกับผู้ใช้รายอื่นแล้ว ลองใช้อินพุตอื่น"
+
+#: .\users\mutations.py:329
+msgid ""
+"Sorry! The given email/phone number is super admin user. Try different input."
+msgstr "ขอโทษ! อีเมล/หมายเลขโทรศัพท์ที่กำหนดเป็นผู้ดูแลระบบขั้นสูง ลองใช้อินพุตอื่น"
+
+#: .\users\mutations.py:355 .\users\mutations.py:481
+msgid "Sorry! You do not have provision to perform this action."
+msgstr "ขอโทษ! คุณไม่มีข้อกำหนดในการดำเนินการนี้"
+
+#: .\users\mutations.py:357
+msgid "Enter a phone number to add capture user/Group Admin."
+msgstr "ป้อนหมายเลขโทรศัพท์เพื่อเพิ่มผู้ใช้/ผู้ดูแลกลุ่ม"
+
+#: .\users\mutations.py:359
+msgid "Email address is mandatory to add a new capture user/Group Admin."
+msgstr "ที่อยู่อีเมลเป็นสิ่งจำเป็นในการเพิ่มผู้ใช้/ผู้ดูแลกลุ่มใหม่"
+
+#: .\users\mutations.py:363
+msgid "Group is mandatory to add a new capture user/Group Admin."
+msgstr "กลุ่มจำเป็นต้องเพิ่มผู้ใช้จับภาพใหม่/ผู้ดูแลกลุ่ม"
+
+#: .\users\mutations.py:375
+msgid "Email address and phone number should not be duplicated."
+msgstr "ที่อยู่อีเมลและหมายเลขโทรศัพท์ไม่ควรซ้ำกัน"
+
+#: .\users\mutations.py:381 .\users\mutations.py:471
+msgid "User with entered email/phone already existed in this application."
+msgstr "ผู้ใช้ที่ป้อนอีเมล/โทรศัพท์มีอยู่แล้วในแอปพลิเคชันนี้"
+
+#: .\users\mutations.py:385
+msgid "User already exist."
+msgstr "มีผู้ใช้นี้อยู่แล้ว."
+
+#: .\users\mutations.py:396
+msgid "User already exist against the client."
+msgstr "ผู้ใช้มีอยู่แล้วกับไคลเอนต์"
+
+#: .\users\mutations.py:458
+msgid "Email address is mandatory to add a new client Admin."
+msgstr "ที่อยู่อีเมลเป็นสิ่งจำเป็นในการเพิ่มผู้ดูแลระบบไคลเอนต์ใหม่"
+
+#: .\users\mutations.py:460
+msgid "Client is mandatory to add a new client Admin."
+msgstr "ลูกค้าจำเป็นต้องเพิ่มผู้ดูแลระบบลูกค้าใหม่"
+
+#: .\users\mutations.py:502
+msgid "No user data found by the given data."
+msgstr "ไม่พบข้อมูลผู้ใช้ตามข้อมูลที่กำหนด"
+
+#: .\users\mutations.py:533
+msgid "Invalid Date of Birth."
+msgstr "วันเกิดไม่ถูกต้อง"
+
+#: .\users\mutations.py:540
+msgid "Invalid gender type."
+msgstr "ประเภทเพศไม่ถูกต้อง"
+
+#: .\users\mutations.py:545
+msgid "Invalid language type."
+msgstr "ประเภทภาษาไม่ถูกต้อง"
+
+#: .\users\mutations.py:550
+msgid "Sorry! User with the given number is already exist."
+msgstr "ขอโทษ! มีผู้ใช้ตามหมายเลขที่ระบุอยู่แล้ว"
+
+#: .\users\mutations.py:569
+msgid "Sorry! You are not signed in. Kindly Sign in to your account."
+msgstr "ขอโทษ! คุณยังไม่ได้ลงชื่อเข้าใช้ กรุณาลงชื่อเข้าใช้บัญชีของคุณ"
+
+#: .\users\mutations.py:579
+msgid "Please enter a valid password."
+msgstr "กรุณาใส่รหัสผ่านที่ถูกต้อง"
+
+#: .\users\schema.py:29
+msgid "Please enter valid credentials."
+msgstr "กรุณาป้อนข้อมูลประจำตัวที่ถูกต้อง"
+
+#: .\users\schema.py:59 .\users\schema.py:110
+msgid "Super Admin"
+msgstr "ผู้ดูแลระบบระดับสูง"
+
+#: .\users\schema.py:61 .\users\schema.py:112
+msgid "Client Admin"
+msgstr "ผู้ดูแลระบบลูกค้า"
+
+#: .\users\schema.py:63 .\users\schema.py:114
+msgid "Group Admin"
+msgstr "ผู้ดูแลกลุ่ม"
+
+#: .\users\schema.py:65 .\users\schema.py:116
+msgid "Capture Users"
+msgstr "จับผู้ใช้"
+
+#: .\users\schema.py:208
+msgid "Sorry! There is no registered user found with this email"
+msgstr "ขอโทษ! ไม่พบผู้ใช้ที่ลงทะเบียนกับอีเมลนี้"
+
+#: .\users\schema.py:274
+msgid "Token has expired."
+msgstr "โทเค็นหมดอายุแล้ว"
+
+#: .\users\schema.py:276
+msgid "Invalid Token."
+msgstr "โทเค็นไม่ถูกต้อง"
